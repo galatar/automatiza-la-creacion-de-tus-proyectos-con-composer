@@ -1,0 +1,23 @@
+{
+    "name": "galatar/tuto_composer",
+    "description": "Tutorial sobre composer",
+    "type": "project",
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Galatar\\TutoComposer\\": "src"
+        }
+    },
+    "scripts": {
+        "phpstan": "vendor/bin/phpstan analyse src --level=3"
+    },
+    "authors": [
+        {
+            "name": "Juanan Ruiz",
+            "email": "juanan@us.es"
+        }
+    ]
+}
